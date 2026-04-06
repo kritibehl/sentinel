@@ -31,6 +31,8 @@ Sentinel compresses those signals into one decision-oriented summary.
 python3 sentinel.py retry_storm
 python3 sentinel.py worker_crash
 cat > README.md <<'EOF'
+```
+
 # Sentinel
 
 Sentinel is a reliability decision layer that combines:
@@ -87,6 +89,7 @@ sentinel/
 │   └── kubepulse/
 ├── outputs/
 └── docs/
+```
 Direction
 
 Sentinel is intended to evolve from static JSON inputs into direct ingestion of:
