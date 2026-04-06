@@ -1,0 +1,8 @@
+{
+  "source": "dettrace",
+  "scenario": "retry_storm",
+  "first_divergence": "auth DNS failure",
+  "incident_family": "retry_storm",
+  "propagation": "auth -> retry storm -> dependency overload -> gateway latency",
+  "confidence": 0.91
+}

@@ -1,0 +1,21 @@
+{
+  "incident": "retry_storm",
+  "first_divergence": "auth DNS failure",
+  "propagation": "auth -> retry storm -> dependency overload -> gateway latency",
+  "correctness": {
+    "duplicate_commits": 0,
+    "stale_writes_blocked": true,
+    "safe_for_production": true
+  },
+  "validation": {
+    "probes_healthy": true,
+    "safe_to_operate": false,
+    "availability": "degraded"
+  },
+  "decision": {
+    "action": "ROLLBACK",
+    "confidence": 0.91,
+    "faultline_recommendation": "increase batch size",
+    "kubepulse_recommendation": "rollback"
+  }
+}

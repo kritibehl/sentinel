@@ -1,0 +1,8 @@
+{
+  "source": "kubepulse",
+  "scenario": "retry_storm",
+  "probes_healthy": true,
+  "safe_to_operate": false,
+  "availability": "degraded",
+  "recommendation": "rollback"
+}

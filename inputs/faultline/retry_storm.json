@@ -1,0 +1,9 @@
+{
+  "source": "faultline",
+  "scenario": "retry_storm",
+  "duplicate_commits": 0,
+  "stale_writes_blocked": true,
+  "safe_for_production": true,
+  "bottleneck": "claim_path",
+  "recommendation": "increase batch size"
+}
