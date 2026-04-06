@@ -1,0 +1,9 @@
+{
+  "source": "faultline",
+  "scenario": "worker_crash",
+  "duplicate_commits": 0,
+  "stale_writes_blocked": true,
+  "safe_for_production": true,
+  "bottleneck": "recovery_path",
+  "recommendation": "continue"
+}

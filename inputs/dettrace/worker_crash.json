@@ -1,0 +1,8 @@
+{
+  "source": "dettrace",
+  "scenario": "worker_crash",
+  "first_divergence": "worker terminated before commit",
+  "incident_family": "worker_crash",
+  "propagation": "worker exit -> lease expiry -> reclaim -> safe recovery",
+  "confidence": 0.96
+}

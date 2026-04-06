@@ -1,0 +1,8 @@
+{
+  "source": "kubepulse",
+  "scenario": "worker_crash",
+  "probes_healthy": true,
+  "safe_to_operate": true,
+  "availability": "healthy",
+  "recommendation": "continue"
+}
