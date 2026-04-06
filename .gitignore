@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+outputs/*.json
+!outputs/.gitkeep
+!outputs/sample_decision_report.json
